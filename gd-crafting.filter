@@ -316,18 +316,24 @@ Show
     BaseType "Exalted Orb"
     SetTextColor 255 0 255
     SetFontSize 44
+    MinimapIcon 0 White Star
+    PlayEffect White
     PlayAlertSound 5 300
 
 Show
     BaseType "Mirror of Kalandra"
     SetTextColor 255 0 255
     SetFontSize 44
+    MinimapIcon 0 White Hexagon
+    PlayEffect White
     PlayAlertSound 5 300
 
 Show
     BaseType "Eternal Orb"
     SetTextColor 255 0 255
     SetFontSize 44
+    MinimapIcon 0 White Circle
+    PlayEffect White
     PlayAlertSound 5 300
 
 Show
@@ -341,12 +347,16 @@ Show
     SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
+    MinimapIcon 1 Red Diamond
+    PlayEffect Yellow
     PlayAlertSound 2 300
 
 Show
     BaseType "Vaal Orb"
     SetTextColor 255 104 0
     SetFontSize 40
+    MinimapIcon 1 Brown Triangle
+    PlayEffect Brown
     PlayAlertSound 16 300
 
 Show
@@ -354,6 +364,8 @@ Show
     SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
+    MinimapIcon 2 Yellow Square
+    PlayEffect Green
     PlayAlertSound 10 300
 
 Show
@@ -361,6 +373,8 @@ Show
     SetTextColor 0 255 200
     SetBorderColor 255 255 255
     SetFontSize 40
+    MinimapIcon 2 Green Square
+    PlayEffect Blue
     PlayAlertSound 11 300
 
 Show
