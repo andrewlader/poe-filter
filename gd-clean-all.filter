@@ -108,6 +108,8 @@ Show
     Class Jewel
     SetTextColor 255 0 200
     SetFontSize 42
+    MinimapIcon 2 White Square
+    PlayEffect Red
     PlayAlertSound 7 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -286,6 +288,8 @@ Show
     Class Card
     SetTextColor 220 128 255
     SetFontSize 40
+    MinimapIcon 2 White Triangle
+    PlayEffect Blue
     PlayAlertSound 16 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -395,17 +399,21 @@ Show
 
 # Highlight all Shaped Maps
 Show
-    Class "Maps" 
-    ShapedMap True 
-    SetFontSize 40 
-    SetBorderColor 255 176 40
-    PlayAlertSound 13 300 
+    Class "Maps"
+    ShapedMap True
+    SetFontSize 40
+    SetBorderColor 255 176 4
+    MinimapIcon 2 Green Circle
+    PlayEffect Blue
+    PlayAlertSound 13 300
 
 Show
     BaseType "Sacrifice at Midnight"
     SetTextColor 0 200 255
     SetFontSize 38
     SetBorderColor 255 160 0
+    MinimapIcon 2 Brown Circle
+    PlayEffect Brown
     PlayAlertSound 13 300
 
 Show
@@ -413,6 +421,8 @@ Show
     Rarity < Unique
     SetTextColor 255 160 0
     SetFontSize 38
+    MinimapIcon 2 Blue Circle
+    PlayEffect White
     PlayAlertSound 13 300
 
 Show
@@ -420,6 +430,8 @@ Show
     Rarity < Unique
     SetTextColor 0 200 255
     SetFontSize 40
+    MinimapIcon 2 Yellow Circle
+    PlayEffect Yellow
     PlayAlertSound 13 300
 
 Show
@@ -427,6 +439,8 @@ Show
     Rarity Unique
     SetFontSize 40
     SetTextColor 255 50 0
+    MinimapIcon 2 Red Circle
+    PlayEffect Red
     PlayAlertSound 16 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
