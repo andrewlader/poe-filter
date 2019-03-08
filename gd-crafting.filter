@@ -507,11 +507,35 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
+    Identified False
+    Corrupted False
+    ElderItem False
+    ShaperItem False
     Rarity Rare
     ItemLevel >= 75
     SetFontSize 36
     SetTextColor 255 176 40
-    SetBorderColor 255 255 255
+    SetBorderColor 255 0 255
+
+Show
+    Identified False
+    Corrupted False
+    ElderItem True
+    Rarity Rare
+    ItemLevel >= 75
+    SetFontSize 36
+    SetTextColor 210 0 165
+    SetBorderColor 255 0 255
+
+Show
+    Identified False
+    Corrupted False
+    ShaperItem True
+    Rarity Rare
+    ItemLevel >= 75
+    SetFontSize 36
+    SetTextColor 210 0 165
+    SetBorderColor 255 0 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -520,10 +544,34 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
+    Identified False
+    Corrupted False
+    ElderItem False
+    ShaperItem False
     Rarity Rare
     ItemLevel >= 60
     SetFontSize 34
-    SetBorderColor 255 255 255
+    SetBorderColor 255 0 255
+
+Show
+    Identified False
+    Corrupted False
+    ElderItem True
+    Rarity Rare
+    ItemLevel >= 60
+    SetFontSize 36
+    SetTextColor 210 0 165
+    SetBorderColor 255 0 255
+
+Show
+    Identified False
+    Corrupted False
+    ShaperItem True
+    Rarity Rare
+    ItemLevel >= 60
+    SetFontSize 36
+    SetTextColor 210 0 165
+    SetBorderColor 255 0 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
