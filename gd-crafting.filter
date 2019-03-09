@@ -471,7 +471,7 @@ Show
 Show
     Class "Map Fragments"
     Rarity < Unique
-    SetTextColor 255 160 0
+    SetTextColor 255 50 0
     SetFontSize 38
     MinimapIcon 2 Blue Circle
     PlayEffect White
@@ -521,6 +521,11 @@ Show
     LinkedSockets >= 5
     SetTextColor 0 200 255
     SetFontSize 46
+
+Show
+    LinkedSockets >= 4
+    SetTextColor 220 80 164
+    SetFontSize 42
 
 Show
     Sockets >= 6
