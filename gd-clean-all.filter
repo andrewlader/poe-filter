@@ -299,7 +299,7 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
-    BaseType "Splinter" "Blessing" "Breachstone" "Uul-Netol"
+    BaseType "Blessing" "Breachstone" "Uul-Netol" "Xoph" "Esh" "Tul" "Chayula"
     SetTextColor 255 176 40
     MinimapIcon 2 Yellow Triangle
     PlayEffect Blue
