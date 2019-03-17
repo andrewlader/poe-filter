@@ -590,7 +590,7 @@ Show
     Rarity < Rare
     LinkedSockets >= 4
     SetTextColor 160 255 160
-    SetFontSize 32
+    SetFontSize 34
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
