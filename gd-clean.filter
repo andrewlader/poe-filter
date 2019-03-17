@@ -602,12 +602,6 @@ Show
     SetFontSize 42
     PlayAlertSound 3 300
 
-Show
-    Rarity < Rare
-    LinkedSockets >= 4
-    SetTextColor 160 255 160
-    SetFontSize 32
-
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
 # Items for Regal Recipe
