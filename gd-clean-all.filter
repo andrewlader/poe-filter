@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.5.2
+# Version: 0.1.1
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -54,6 +54,35 @@
 
 # *****************************************************************************
 #
+# Possible Colors
+#
+# Purple                255 0 200
+# Light Purple          255 128 220
+# Bright Yellow	        255 200 0
+# Bright Orange	        255 176 40
+# Powder Blue           0 200 255
+# Pale Blue	            200 255 255
+# Orange                255 104 0
+# Light Orange          255 160 0
+# Dark Orange           220 80 0
+# Pink	                220 80 164
+# Plum	                210 165 165
+# Lt Powder Blue        80 240 255
+# Purple                165 128 165
+# Light Pink            220 128 255
+# Dark Pink	            255 0 255
+# Cyan	                128 255 255
+# Pastel Green          0 255 200
+# Violet                102 0 102
+# Light Green           160 255 160
+# Blue                  0 128 255
+# Dark Red              255 50 0
+# Light Yellow          255 240 192
+# Pale Pink	            255 182 255
+# Light Red	            255 200 200
+# Dark Gray	            96 96 96
+# Light Gray            160 160 160
+
 # Colors Assignments
 #
 # Highest Currency              Dark Pink       (255 0 255)
@@ -437,9 +466,9 @@ Show
 
 # Highlight all Shaped Maps
 Show
-    Class "Maps"
-    ShapedMap True
-    SetFontSize 40
+    Class "Maps" 
+    ShapedMap True 
+    SetFontSize 40 
     SetBorderColor 255 176 4
     MinimapIcon 2 Green Circle
     PlayEffect Blue
@@ -500,8 +529,17 @@ Show
 Show
     Class Ring Amulet Belt
     Rarity Rare
-    ItemLevel >= 60
+    ItemLevel >= 75
     SetTextColor 255 0 200
+    SetFontSize 35
+    SetBorderColor 255 255 255
+    PlayAlertSound 10 300
+
+Show
+    Class Ring Amulet Belt
+    Rarity Rare
+    ItemLevel >= 60
+    SetTextColor 20 200 255
     SetFontSize 35
     SetBorderColor 255 255 255
     PlayAlertSound 10 300
@@ -540,7 +578,9 @@ Show
     SetFontSize 48
     SetTextColor 255 0 128
     SetBorderColor 255 255 255
-    PlayAlertSound 2 200
+    MinimapIcon 2 White Circle
+    PlayEffect Brown
+    PlayAlertSound 2 300
 
 Show
     Rarity Unique
@@ -564,7 +604,7 @@ Show
 Show
     LinkedSockets >= 5
     SetTextColor 0 200 255
-    SetFontSize 46
+    SetFontSize 30
 
 Show
     Sockets >= 6
@@ -572,11 +612,54 @@ Show
     SetFontSize 42
     PlayAlertSound 3 300
 
+# Show
+#    Rarity < Rare
+#    LinkedSockets >= 4
+#    SetTextColor 160 255 160
+#    SetFontSize 34
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#
+# Items for Crafting Recipes
+#
+# <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 Show
-    Rarity < Rare
-    LinkedSockets >= 4
-    SetTextColor 160 255 160
-    SetFontSize 34
+    BaseType "Leather Belt" "Iron Ring" "Steel Ring" "Spiked Gloves" "Jade Amulet"
+    Rarity Normal
+    Corrupted False
+    ItemLevel >= 75
+    SetFontSize 32
+    SetTextColor 160 160 160
+    SetBorderColor 255 200 200
+
+# Gavel for Mjolner
+Show
+    BaseType "Gavel"
+    Rarity Normal
+    Corrupted False
+    ItemLevel >= 60
+    SetFontSize 32
+    SetTextColor 160 160 160
+    SetBorderColor 255 200 200
+
+# Normal Items over 84
+Show
+    Rarity Normal
+    Corrupted False
+    ItemLevel >= 85
+    SetFontSize 32
+    SetTextColor 255 200 255
+    SetBorderColor 200 200 200
+
+# Rare items over 84
+Show
+    Rarity Rare
+    Corrupted False
+    ItemLevel >= 85
+    SetFontSize 36
+    SetTextColor 220 80 0
+    SetBorderColor 255 0 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
