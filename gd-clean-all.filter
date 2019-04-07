@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.1.1
+# Version: 0.1.2
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -401,7 +401,7 @@ Show
 
 Show
     BaseType "Chaos Orb"
-    SetTextColor 0 255 200
+    SetTextColor 220 80 0
     SetBorderColor 255 255 255
     SetFontSize 40
     MinimapIcon 1 Red Diamond
@@ -612,11 +612,11 @@ Show
     SetFontSize 42
     PlayAlertSound 3 300
 
-# Show
-#    Rarity < Rare
-#    LinkedSockets >= 4
-#    SetTextColor 160 255 160
-#    SetFontSize 34
+Show
+    Rarity < Rare
+    LinkedSockets >= 4
+    SetTextColor 160 255 160
+    SetFontSize 34
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -628,7 +628,7 @@ Show
     BaseType "Leather Belt" "Iron Ring" "Steel Ring" "Spiked Gloves" "Jade Amulet"
     Rarity Normal
     Corrupted False
-    ItemLevel >= 75
+    ItemLevel >= 84
     SetFontSize 32
     SetTextColor 160 160 160
     SetBorderColor 255 200 200
@@ -649,8 +649,8 @@ Show
     Corrupted False
     ItemLevel >= 85
     SetFontSize 32
-    SetTextColor 255 200 255
-    SetBorderColor 200 200 200
+    SetTextColor 255 200 128
+    SetBorderColor 255 176 40
 
 # Rare items over 84
 Show
