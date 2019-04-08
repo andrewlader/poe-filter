@@ -612,11 +612,11 @@ Show
     SetFontSize 42
     PlayAlertSound 3 300
 
-# Show
-#    Rarity < Rare
-#    LinkedSockets >= 4
-#    SetTextColor 160 255 160
-#    SetFontSize 34
+Show
+    Rarity < Rare
+    LinkedSockets >= 4
+    SetTextColor 160 255 160
+    SetFontSize 34
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
@@ -644,13 +644,13 @@ Show
     SetBorderColor 255 200 200
 
 # Normal Items over 84
-#Show
-#    Rarity Normal
-#    Corrupted False
-#    ItemLevel >= 85
-#    SetFontSize 32
-#    SetTextColor 255 240 192
-#    SetBorderColor 255 0 255
+Show
+    Rarity Normal
+    Corrupted False
+    ItemLevel >= 85
+    SetFontSize 32
+    SetTextColor 255 240 192
+    SetBorderColor 255 0 255
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
