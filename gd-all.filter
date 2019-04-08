@@ -602,15 +602,15 @@ Show
     PlayAlertSound 2 300
 
 Show
-    LinkedSockets >= 5
-    SetTextColor 0 200 255
-    SetFontSize 30
-
-Show
     Sockets >= 6
     SetTextColor 0 128 255
     SetFontSize 42
     PlayAlertSound 3 300
+
+Show
+    LinkedSockets >= 5
+    SetTextColor 0 200 255
+    SetFontSize 30
 
 Show
     Rarity < Rare
