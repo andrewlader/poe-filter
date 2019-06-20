@@ -328,7 +328,15 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
-    BaseType "Blessing" "Breachstone" "Uul-Netol" "Xoph" "Esh" "Tul" "Chayula"
+    BaseType "Incubator"
+    SetTextColor 255 50 0
+    SetFontSize 40
+    MinimapIcon 2 Blue Circle
+    PlayEffect White
+    PlayAlertSound 10 300
+
+Show
+    BaseType "Blessing" "Breachstone" "Uul-Netol" "Xoph" "Esh" "Tul" "Chayula" "Timeless"
     SetTextColor 255 176 40
     MinimapIcon 2 Yellow Triangle
     PlayEffect Blue
