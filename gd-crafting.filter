@@ -337,7 +337,7 @@ Show
 
 Show
     BaseType "Blessing" "Breachstone" "Uul-Netol" "Xoph" "Esh" "Tul" "Chayula" "Timeless"
-    SetTextColor 255 176 40
+    SetTextColor 220 80 164
     MinimapIcon 2 Yellow Triangle
     PlayEffect Blue
     SetFontSize 40
