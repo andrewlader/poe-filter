@@ -329,9 +329,9 @@ Show
     BaseType "Chaotic Disposition" "Dark Dreams" "The Cartographer" "The Celestial Justicar" "The Enlightened" "The Mayor" "The Professor" "The Valkyrie" "The Void" "The Wind" "The Wolf"
     SetTextColor 255 182 255
     SetFontSize 36
-    MinimapIcon 2 Orange Triangle
+    MinimapIcon 2 Yellow Triangle
     PlayEffect Blue
-    PlayAlertSound 16 300
+    PlayAlertSound 15 300
 
 # Regular Divination Cards
 Show
@@ -340,7 +340,7 @@ Show
     SetFontSize 32
     MinimapIcon 2 White Triangle
     PlayEffect Blue
-    PlayAlertSound 16 300
+    PlayAlertSound 14 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 #
