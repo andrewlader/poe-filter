@@ -2,7 +2,7 @@
 #
 # GamingDaemon's path of Exile Loot Filter
 #
-# Version: 0.2.1
+# Version: 0.3.9
 #
 # https://github.com/GamingDaemon/poe-filter
 #
@@ -313,24 +313,70 @@ Show
 #
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+Exceptions to prevent identification mistakes
+
+Show
+	Class Divination
+	BaseType "The Demoness" "The Wolf's Legacy" "The Wolf's Shadow"
+    SetTextColor 255 182 255
+    SetFontSize 36
+    SetBorderColor 255 160 0
+    MinimapIcon 2 White Triangle
+    PlayEffect White
+    PlayAlertSound 15 300
+
+Show
+	Class Divination
+	BaseType "The Master Artisan"
+    SetTextColor 255 182 255
+    SetFontSize 36
+    SetBorderColor 255 160 0
+    MinimapIcon 2 White Triangle
+    PlayEffect White
+    PlayAlertSound 15 300
+
+
 # Tier 1 Divination Cards
 Show
     Class Divination
-	BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "Burning Blood" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "The Celestial Stone" "The Damned" "The Demon" "The Doctor" "The Dragon's Heart" "The Fiend" "The Immortal" "The Iron Bard" "The Nurse" "The Price of Loyalty" "The Samurai's Eye" "The Spark and the Flame" "Wealth and Power"
+	BaseType "Abandoned Wealth" "Alluring Bounty" "Beauty Through Death" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Nook's Crown" "Pride of the First Ones" "Seven Years Bad Luck" "The Damned" "The Demon" "The Doctor" "The Fiend" "The Immortal" "The Iron Bard" "The Nurse" "The Price of Loyalty" "The Samurai's Eye" "The Spark and the Flame" "The Mayor" "Void of the Elements" "Baited Expectations" "The Escape" "Etched in Blood" "Squandered Prosperity" "Succor of the Sinless"
     SetTextColor 220 128 255
     SetFontSize 40
+    SetBorderColor 255 160 0
     MinimapIcon 2 Brown Triangle
-    PlayEffect Blue
-    PlayAlertSound 16 300
+    PlayEffect Brown
+    PlayAlertSound 15 300
 
 # Tier 2 Divination Cards
 Show
     Class Divination
-	BaseType "Chaotic Disposition" "Mawr Blaidd" "Pride Before the Fall" "The Bargain" "The Cartographer" "The Celestial Justicar" "The Enlightened" "The Eye of Terror" "The Landing" "The Mayor" "The Polymath" "The Queen" "The Saint's Treasure" "The Sephirot" "The Soul" "The Undaunted" "The Void" "The Wolven King's Bite" "Void of the Elements"
+	BaseType "Chaotic Disposition" "Mawr Blaidd" "The Bargain" "The Cartographer" "The Eye of Terror" "Wealth and Power" "The Polymath" "The Queen" "The Saint's Treasure" "The Sephirot" "The Soul" "The Undaunted" "The Void" "The Wolven King's Bite" "The Celestial Stone" "The Old Man" "The Dragon's Heart" "Burning Blood" "The Life Thief" "Azyran's Reward" "The Chosen" "Divine Justice"
     SetTextColor 255 182 255
     SetFontSize 36
+    SetBorderColor 255 160 0
     MinimapIcon 2 Yellow Triangle
+    PlayEffect Yellow
+    PlayAlertSound 15 300
+
+# Tier 3 Divination Cards
+Show
+    Class Divination
+	BaseType "Pride Before the Fall" "Blessing of God" "Boon of the First Ones" "Bowyer's Dream" "Buried Treasure" "Dark Dreams" "Emperor of Purity" "Heterochromia" "Humility" "Last Hope" "Lucky Deck" "Perfection" "Remembrance" "The Artist" "The Brittle Emperor" "The Chains that Bind" "The Dapper Prodigy" "The Dark Mage" "The Dreamer" "The Endless Darkness" "The Ethereal" "The Hale Heart" "The Hoarder" "The Jeweller's Boon" "The Journey" "The King's Heart" "The Last One Standing" "The Enlightened" "The Offering" "The Landing" "The Porcupine" "The Price of Protection" "The Celestial Justicar" "The Risk" "The Sacrifice" "The Seeker" "The Throne" "The Valkyrie" "The Valley of Steel Boxes" "The Deep Ones" "The Warlord" "The World Eater" "Vanity" "Hunter's Resolve" "Time-Lost Relic" "The Professor" "The Vast" "Hubris" "The Wolf" "Left to Fate" "The Hunger" "The Thaumaturgist" "The Wind" "The Master" "The Primordial" "The Heroic Shot" "Anarchy's Price" "Earth Drinker" "The Avenger" "The Fletcher" "The Formless Sea" "The Gladiator" "The Pack Leader" "The Pact" "Tranquillity" "The Obscured" "The Deceiver" "Alone in the Darkness" "Vile Power" "The Bones" "Cameria's Cut" "The Craving" "Deathly Designs" "The Fishmonger" "Friendship" "Underground Forest"
+    SetTextColor 255 182 255
+    SetFontSize 36
+    SetBorderColor 255 160 0
+    MinimapIcon 2 Blue Triangle
     PlayEffect Blue
+    PlayAlertSound 15 300
+
+Show
+	Class "Divination"
+	BaseType "Boon of Justice" "Coveted Possession" "Demigod's Wager" "Emperor's Luck" "Harmony of Souls" "Her Mask" "Imperial Legacy" "Loyalty" "Lucky Connections" "Monochrome" "More is Never Enough" "No Traces" "Sambodhi's Vow" "The Cacophony" "The Catalyst" "The Deal" "The Flora's Gift" "The Fool" "The Gemcutter" "The Innocent" "The Inventor" "The Puzzle" "The Side Quest" "The Survivalist" "The Union" "The Wrath" "Three Faces in the Dark" "Three Voices" "Vinia's Token"
+    SetTextColor 255 182 255
+    SetFontSize 36
+    SetBorderColor 255 160 0
+    MinimapIcon 2 White Triangle
+    PlayEffect White
     PlayAlertSound 15 300
 
 # Regular Divination Cards
@@ -338,8 +384,9 @@ Show
     Class Divination
     SetTextColor 0 200 255
     SetFontSize 32
-    MinimapIcon 2 White Triangle
-    PlayEffect Blue
+    SetBorderColor 255 160 0
+    MinimapIcon 2 Green Triangle
+    PlayEffect Green
     PlayAlertSound 14 300
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -399,28 +446,48 @@ Show
     SetTextColor 160 255 160
 
 Show
-    BaseType "Exalted Orb"
+	BaseType "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Awakener's Orb"
     SetTextColor 255 0 255
     SetFontSize 44
+    SetBorderColor 255 255 0
     MinimapIcon 0 White Star
     PlayEffect White
     PlayAlertSound 5 300
 
 Show
-    BaseType "Mirror of Kalandra"
+    BaseType "Exalted Orb"
     SetTextColor 255 0 255
-    SetFontSize 44
+    SetFontSize 46
+    SetBorderColor 255 160 0
+    MinimapIcon 0 White Star
+    PlayEffect Brown
+    PlayAlertSound 5 300
+
+Show
+	BaseType "Albino Rhoa Feather" "Eternal Orb" "Mirror of Kalandra" "Mirror Shard"
+    SetTextColor 255 0 255
+    SetFontSize 46
+    SetBorderColor 255 160 0
     MinimapIcon 0 White Hexagon
-    PlayEffect White
+    PlayEffect Brown
     PlayAlertSound 5 300
 
 Show
     BaseType "Eternal Orb"
     SetTextColor 255 0 255
-    SetFontSize 44
+    SetFontSize 46
+    SetBorderColor 255 160 0
     MinimapIcon 0 White Circle
     PlayEffect White
     PlayAlertSound 5 300
+
+Show
+	BaseType "Ancient Orb" "Divine Orb" "Harbinger's Orb" "Orb of Annulment"
+    SetTextColor 255 255 0
+    SetFontSize 44
+    MinimapIcon 0 Blue Circle
+    PlayEffect Blue
+    PlayAlertSound 14 300
 
 Show
     BaseType "Chromatic Orb"
@@ -475,7 +542,7 @@ Show
     SetTextColor 102 0 102
     SetBorderColor 255 255 255
     SetFontSize 38
-    PlayAlertSound 16 300
+    PlayAlertSound 13 300
 
 Show
     BaseType "Scroll of Wisdom" "Armourer's Scrap" "Blacksmith's Whetstone"
