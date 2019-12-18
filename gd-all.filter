@@ -396,9 +396,10 @@ Show
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 Show
-    BaseType "Incubator"
+    BaseType "Incubator" "Sextant" "Catalyst" "Oil"
     SetTextColor 255 50 0
     SetFontSize 40
+    SetBorderColor 220 80 0
     MinimapIcon 2 Blue Circle
     PlayEffect White
     PlayAlertSound 10 300
